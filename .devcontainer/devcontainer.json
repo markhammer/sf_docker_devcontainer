@@ -1,0 +1,16 @@
+{
+  "name": "Salesforce Project (Community)",
+  "dockerFile": "./container_resource/Dockerfile",
+  "postCreateCommand": "/bin/sh .devcontainer/postCreateCommand.sh",
+  "postAttachCommand": "/bin/sh .devcontainer/postAttachCommand.sh",
+  "extensions": [
+    "salesforce.salesforcedx-vscode",
+    "redhat.vscode-xml",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "donjayamanne.githistory"
+  ],
+  "settings": {
+    "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-11-openjdk-amd64"
+  }
+}
