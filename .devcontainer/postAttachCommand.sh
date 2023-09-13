@@ -1,1 +1,1 @@
-sf update
+npm update --global @salesforce/cli
